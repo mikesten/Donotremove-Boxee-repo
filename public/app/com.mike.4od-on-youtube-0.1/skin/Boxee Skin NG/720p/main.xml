@@ -47,7 +47,7 @@
                         <aligny>center</aligny>
                         <textoffsetx>40</textoffsetx>
                         <onright lang="python"><![CDATA[
-mc.GetWindow(14000).GetList(1000).SetContentURL( "rss://youtube-to-boxee.heroku.com/users/4od")
+mc.GetWindow(14000).GetList(1000).SetContentURL( "rss://youtube-to-boxee.donotremove.co.uk/users/4od")
 mc.GetWindow(14000).GetList(1000).SetFocus()
 ]]></onright>
                     </control>
@@ -59,7 +59,7 @@ mc.GetWindow(14000).GetList(1000).SetFocus()
                         <aligny>center</aligny>
                         <textoffsetx>40</textoffsetx>
                         <onright lang="python"><![CDATA[
-mc.GetWindow(14000).GetList(1000).SetContentURL( "rss://youtube-to-boxee.heroku.com/users/4oDComedy")
+mc.GetWindow(14000).GetList(1000).SetContentURL( "rss://youtube-to-boxee.donotremove.co.uk/users/4oDComedy")
 mc.GetWindow(14000).GetList(1000).SetFocus()
 ]]></onright>
                     </control>
@@ -71,7 +71,7 @@ mc.GetWindow(14000).GetList(1000).SetFocus()
                         <aligny>center</aligny>
                         <textoffsetx>40</textoffsetx>
                         <onright lang="python"><![CDATA[
-mc.GetWindow(14000).GetList(1000).SetContentURL( "rss://youtube-to-boxee.heroku.com/users/4oDDrama")
+mc.GetWindow(14000).GetList(1000).SetContentURL( "rss://youtube-to-boxee.donotremove.co.uk/users/4oDDrama")
 mc.GetWindow(14000).GetList(1000).SetFocus()
 ]]></onright>
                     </control>
@@ -83,7 +83,7 @@ mc.GetWindow(14000).GetList(1000).SetFocus()
                         <aligny>center</aligny>
                         <textoffsetx>40</textoffsetx>
                         <onright lang="python"><![CDATA[
-mc.GetWindow(14000).GetList(1000).SetContentURL( "rss://youtube-to-boxee.heroku.com/users/4oDFood")
+mc.GetWindow(14000).GetList(1000).SetContentURL( "rss://youtube-to-boxee.donotremove.co.uk/users/4oDFood")
 mc.GetWindow(14000).GetList(1000).SetFocus()
 ]]></onright>
                     </control>
@@ -95,7 +95,7 @@ mc.GetWindow(14000).GetList(1000).SetFocus()
                         <aligny>center</aligny>
                         <textoffsetx>40</textoffsetx>
                         <onright lang="python"><![CDATA[
-mc.GetWindow(14000).GetList(1000).SetContentURL( "rss://youtube-to-boxee.heroku.com/users/4oDLifestyle")
+mc.GetWindow(14000).GetList(1000).SetContentURL( "rss://youtube-to-boxee.donotremove.co.uk/users/4oDLifestyle")
 mc.GetWindow(14000).GetList(1000).SetFocus()
 ]]></onright>
                     </control>
@@ -107,7 +107,7 @@ mc.GetWindow(14000).GetList(1000).SetFocus()
                         <aligny>center</aligny>
                         <textoffsetx>40</textoffsetx>
                         <onright lang="python"><![CDATA[
-mc.GetWindow(14000).GetList(1000).SetContentURL( "rss://youtube-to-boxee.heroku.com/users/4oDDocumentaries")
+mc.GetWindow(14000).GetList(1000).SetContentURL( "rss://youtube-to-boxee.donotremove.co.uk/users/4oDDocumentaries")
 mc.GetWindow(14000).GetList(1000).SetFocus()
 ]]></onright>
                     </control>
@@ -119,7 +119,7 @@ mc.GetWindow(14000).GetList(1000).SetFocus()
                         <aligny>center</aligny>
                         <textoffsetx>40</textoffsetx>
                         <onright lang="python"><![CDATA[
-mc.GetWindow(14000).GetList(1000).SetContentURL( "rss://youtube-to-boxee.heroku.com/users/4oDEntertainment")
+mc.GetWindow(14000).GetList(1000).SetContentURL( "rss://youtube-to-boxee.donotremove.co.uk/users/4oDEntertainment")
 mc.GetWindow(14000).GetList(1000).SetFocus()
 ]]></onright>
                     </control>
@@ -131,7 +131,7 @@ mc.GetWindow(14000).GetList(1000).SetFocus()
                         <aligny>center</aligny>
                         <textoffsetx>40</textoffsetx>
                         <onright lang="python"><![CDATA[
-mc.GetWindow(14000).GetList(1000).SetContentURL( "rss://youtube-to-boxee.heroku.com/users/4oDHomes")
+mc.GetWindow(14000).GetList(1000).SetContentURL( "rss://youtube-to-boxee.donotremove.co.uk/users/4oDHomes")
 mc.GetWindow(14000).GetList(1000).SetFocus()
 ]]></onright>
                     </control>
@@ -143,7 +143,7 @@ mc.GetWindow(14000).GetList(1000).SetFocus()
                         <aligny>center</aligny>
                         <textoffsetx>40</textoffsetx>
                         <onright lang="python"><![CDATA[
-mc.GetWindow(14000).GetList(1000).SetContentURL( "rss://youtube-to-boxee.heroku.com/users/4oDIndia")
+mc.GetWindow(14000).GetList(1000).SetContentURL( "rss://youtube-to-boxee.donotremove.co.uk/users/4oDIndia")
 mc.GetWindow(14000).GetList(1000).SetFocus()
 ]]></onright>
                     </control>
@@ -210,7 +210,7 @@ mc.GetWindow(14000).GetList(1000).SetFocus()
                             <animation effect="slide" start="20,0" center="auto" time="140">Unfocus</animation>
                         </control>
                     </focusedlayout>
-                    <content type="url" url="rss://youtube-to-boxee.heroku.com/users/4oD">
+                    <content type="url" url="rss://youtube-to-boxee.donotremove.co.uk/users/4oD">
                     </content>
                 </control><!-- end list -->
             </control>
