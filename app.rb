@@ -10,7 +10,7 @@ end
 get "/repository.xml" do
   content_type :xml
   "<repository>
-     <id>com.mike</id>
+     <id>com.donotremove</id>
      <url>http://boxee.donotremove.co.uk</url>
      <name>Mike's Boxee Repo</name>
      <thumb>http://dir.boxeehq.com/thumb.png</thumb>
@@ -23,12 +23,12 @@ get "/index.xml" do
   content_type :xml
   "<apps>
      <app>
-       <id>com.mike.4od-on-youtube</id>
+       <id>com.donotremove.4od-on-youtube</id>
        <name>4oD</name>
        <version>0.1</version>
        <description>4oD on YouTube.</description>
        <thumb>http://boxee.donotremove.co.uk/4od.png</thumb>
-       <repositoryid>com.mike</repositoryid>
+       <repositoryid>com.donotremove</repositoryid>
        <repository>http://boxee.donotremove.co.uk</repository>
        <media>video</media>
        <copyright>Probably Channel 4</copyright>
