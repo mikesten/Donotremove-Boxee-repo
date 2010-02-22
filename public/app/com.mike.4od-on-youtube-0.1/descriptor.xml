@@ -1,8 +1,8 @@
 <app>
     <id>com.mike.4od-on-youtube</id>
-    <name>4OD</name>
+    <name>4oD</name>
     <version>0.1</version>
-    <description>4oD Documentaries on YouTube</description>
+    <description>4oD on YouTube.</description>
     <thumb>http://boxee.donotremove.co.uk/4od.png</thumb>
     <repositoryid>com.mike</repositoryid>
     <repository>http://boxee.donotremove.co.uk</repository>
