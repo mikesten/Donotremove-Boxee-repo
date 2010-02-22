@@ -1,0 +1,16 @@
+<app>
+    <id>com.mike.4od-on-youtube</id>
+    <name>4OD</name>
+    <version>0.1</version>
+    <description>4oD Documentaries on YouTube</description>
+    <thumb>http://boxee.donotremove.co.uk/4od.png</thumb>
+    <repositoryid>com.mike</repositoryid>
+    <repository>http://boxee.donotremove.co.uk</repository>
+    <media>video</media>
+    <copyright>Probably Channel 4</copyright>
+    <email>mike@donotremove.co.uk</email>
+    <type>skin</type>
+    <startWindow>14000</startWindow>
+    <platform>all</platform>
+    <minversion>0.9.20</minversion>
+</app>

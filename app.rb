@@ -11,8 +11,8 @@ get "/repository.xml" do
   content_type :xml
   "<repository>
      <id>com.mike</id>
-     <url>http://youtube-to-boxee.heroku.com</url>
-     <name>Mike's Temporary Repo</name>
+     <url>http://boxee.donotremove.co.uk</url>
+     <name>Mike's Boxee Repo</name>
      <thumb>http://dir.boxeehq.com/thumb.png</thumb>
      <description>Temporary repo to test out the 4oD app.</description>
   </repository>
@@ -27,9 +27,9 @@ get "/index.xml" do
        <name>4OD</name>
        <version>0.1</version>
        <description>4oD Documentaries on YouTube</description>
-       <thumb>http://youtube-to-boxee.heroku.com/4od.png</thumb>
+       <thumb>http://boxee.donotremove.co.uk/4od.png</thumb>
        <repositoryid>com.mike</repositoryid>
-       <repository>http://youtube-to-boxee.heroku.com</repository>
+       <repository>http://boxee.donotremove.co.uk</repository>
        <media>video</media>
        <copyright>Probably Channel 4</copyright>
        <email>mike@donotremove.co.uk</email>
