@@ -153,9 +153,9 @@ mc.GetWindow(14000).GetList(1000).SetFocus()
                     <animation type="Conditional" condition="Window.IsVisible(DialogProgress.xml)">
                         <effect type="fade" start="100" end="20" time="200"/>
                     </animation>
-                    <posx>400</posx>
+                    <posx>340</posx>
                     <posy>60</posy>
-                    <width>600</width>
+                    <width>940</width>
                     <height>700</height>
                     <onleft>9000</onleft>
                     <onright>-</onright>
@@ -164,7 +164,7 @@ mc.GetWindow(14000).GetList(1000).SetFocus()
                     <scrolltime>200</scrolltime>
                     <pagecontrol>-</pagecontrol>
                     <orientation>vertical</orientation>
-                    <itemlayout width="600" height="200">
+                    <itemlayout width="940" height="200">
                         <control type="image">
                             <posx>0</posx>
                             <posy>0</posy>
@@ -173,19 +173,31 @@ mc.GetWindow(14000).GetList(1000).SetFocus()
                             <info>ListItem.Thumb</info>
                         </control>
                         <control type="label">
-                            <posx>310</posx>
+                            <posx>306</posx>
                             <posy>20</posy>
-                            <width>532</width>
-                            <height>160</height>
+                            <width>594</width>
+                            <height>60</height>
                             <font>font36</font>
                             <align>left</align>
                             <aligny>top</aligny>
                             <label>$INFO[ListItem.Label]</label>
-                            <textcolor>cccccc00</textcolor>
+                            <textcolor>99999999</textcolor>
+                            <wrapmultiline>false</wrapmultiline>
+                        </control>
+                        <control type="label">
+                            <posx>306</posx>
+                            <posy>60</posy>
+                            <width>594</width>
+                            <height>140</height>
+                            <font>font24</font>
+                            <align>left</align>
+                            <aligny>top</aligny>
+                            <label>$INFO[ListItem.property(description)]</label>
+                            <textcolor>99999999</textcolor>
                             <wrapmultiline>true</wrapmultiline>
                         </control>
                     </itemlayout>
-                    <focusedlayout width="600" height="200">
+                    <focusedlayout width="940" height="200">
                         <control type="image">
                             <posx>0</posx>
                             <posy>0</posy>
@@ -196,14 +208,28 @@ mc.GetWindow(14000).GetList(1000).SetFocus()
                             <animation effect="zoom" start="120,120" end="100,100" center="auto" time="140">Unfocus</animation>
                         </control>
                         <control type="label">
-                            <posx>310</posx>
+                            <posx>306</posx>
                             <posy>20</posy>
-                            <width>532</width>
-                            <height>160</height>
+                            <width>594</width>
+                            <height>60</height>
                             <font>font36b</font>
                             <align>left</align>
                             <aligny>top</aligny>
                             <label>$INFO[ListItem.Label]</label>
+                            <textcolor>white</textcolor>
+                            <wrapmultiline>false</wrapmultiline>
+                            <animation effect="slide" end="20,0" center="auto" time="140">Focus</animation>
+                            <animation effect="slide" start="20,0" center="auto" time="140">Unfocus</animation>
+                        </control>
+                        <control type="label">
+                            <posx>306</posx>
+                            <posy>60</posy>
+                            <width>594</width>
+                            <height>140</height>
+                            <font>font24</font>
+                            <align>left</align>
+                            <aligny>top</aligny>
+                            <label>$INFO[ListItem.property(description)]</label>
                             <textcolor>white</textcolor>
                             <wrapmultiline>true</wrapmultiline>
                             <animation effect="slide" end="20,0" center="auto" time="140">Focus</animation>
