@@ -1,0 +1,20 @@
+!!!
+%html{:lang => "en", :xmlns => "http://www.w3.org/1999/xhtml"}
+  %head
+    %title Mike's Boxee repo
+    %meta{:charset => "utf-8"}/
+  %body
+    %h1 Mike's Boxee Repo
+    %p 
+      All that's here is my 4oD hack. Add this url 
+      = surround "(", ")" do
+        = request.url 
+      to your repositories under Apps > Extras in Boxee if you want to try it out.
+    :javascript
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    :javascript
+      try {
+        var pageTracker = _gat._getTracker("UA-360581-5");
+        pageTracker._trackPageview();
+      } catch(err) {}</script>
