@@ -4,7 +4,8 @@ require 'rubygems'
 require 'sinatra'
 
 get "/" do
-  "Mike's Boxee Repo"
+  content_type :text
+  "Mike's Boxee Repo\nAll that's here is my 4oD hack. Add this url (#{response.url}) to your repositories under Apps > Extras in Boxee if you want to try it out."
 end
 
 get "/repository.xml" do
