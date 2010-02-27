@@ -3,6 +3,13 @@
 require 'rubygems'
 require 'sinatra'
 require 'haml'
+require 'sass'
+
+get "/screen.css" do
+  content_type "text/css", :charset => "utf-8"
+  response.headers['Cache-Control'] = "public, max-age=#{60*60*24}"
+  sass :screen
+end
 
 get "/" do
   haml :home
