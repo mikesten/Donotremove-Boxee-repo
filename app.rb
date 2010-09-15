@@ -17,6 +17,7 @@ end
 
 get "/repository.xml" do
   content_type :xml
+  response.headers['Cache-Control'] = "public, max-age=#{60*60*6}"
   "<repository>
      <id>com.donotremove</id>
      <url>http://boxee.donotremove.co.uk</url>
@@ -29,6 +30,7 @@ end
 
 get "/index.xml" do
   content_type :xml
+  response.headers['Cache-Control'] = "public, max-age=#{60*60*6}"
   "<apps>
      <app>
        <id>com.donotremove.4od-on-youtube</id>
